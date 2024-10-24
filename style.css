@@ -1,0 +1,43 @@
+body.contents{
+    background-image: url(flowers.jpg);
+    height: 100vh;
+    width:100% ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+/*CATEGORY SECTION*/
+
+.index-category{
+    width: 100%;
+    padding: 60px 0;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.index-category-box{
+    width: 200px;
+    height: 200px;
+    background-color:turquoise ;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.index-category-box h3{
+    font-size: 22px;
+    line-height: 28px;
+    color: pink;
+    font-family: roboto;
+    font-weight:600 ;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: -2px 2px 4px #000;
+    
+}
+.about h1{
+         text-align: center;
+         color: turquoise;
+         text-shadow:-2px 2px 4px #000 ;
+}
