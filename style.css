@@ -61,4 +61,27 @@ body.contents{
             color: beige;
             text-shadow: -2px 2px 4px #000;
 }
-       
+nav ul li a{
+    text-decoration: none;
+    color: pink;
+    font-size: 17px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+      text-decoration: none;
+      color: pink;
+      font-size: 17px;
+}    
