@@ -41,3 +41,24 @@ body.contents{
          color: turquoise;
          text-shadow:-2px 2px 4px #000 ;
 }
+.premium h2{
+           text-align: center;
+           color: beige;
+           text-shadow: -2px 2px 4px #000;
+} 
+.hero h2{
+        text-align: center;
+        color: beige;
+        text-shadow: -2px 2px 4px #000;
+} 
+.content h2{
+           text-align: center;
+           color: beige;
+           text-shadow: -2px 2px 4px #000;
+} 
+.valencia h2{
+            text-align: center;
+            color: beige;
+            text-shadow: -2px 2px 4px #000;
+}
+       
