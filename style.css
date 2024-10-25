@@ -61,4 +61,6 @@ body.contents{
             color: beige;
             text-shadow: -2px 2px 4px #000;
 }
-       
+.about h2 ul li{
+               text-align: center;
+}       
