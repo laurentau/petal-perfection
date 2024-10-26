@@ -1,0 +1,117 @@
+body.contents{
+    background-image: url(flowers.jpg);
+    height: 100vh;
+    width:100% ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+/*CATEGORY SECTION*/
+
+.index-category{
+    width: 100%;
+    padding: 60px 0;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.index-category-box{
+    width: 200px;
+    height: 200px;
+    background-color:turquoise ;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.index-category-box h3{
+    font-size: 22px;
+    line-height: 28px;
+    color: pink;
+    font-family: roboto;
+    font-weight:600 ;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: -2px 2px 4px #000;
+    
+}
+.about h1{
+         text-align: center;
+         color: turquoise;
+         text-shadow:-2px 2px 4px #000 ;
+}
+.premium h2{
+           text-align: center;
+           color: beige;
+           text-shadow: -2px 2px 4px #000;
+} 
+.hero h2{
+        text-align: center;
+        color: beige;
+        text-shadow: -2px 2px 4px #000;
+} 
+.content h2{
+           text-align: center;
+           color: beige;
+           text-shadow: -2px 2px 4px #000;
+} 
+.valencia h2{
+            text-align: center;
+            color: beige;
+            text-shadow: -2px 2px 4px #000;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+      text-decoration: none;
+      color: black;
+      font-size: 17px;
+} 
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+.back-video{
+       width: 100%;
+       height: auto;
+}
+}@media(max-aspect-ratio:16/9){
+.back-video{
+       width: auto;
+       height: 100%;
+}
+}
+.copper{
+    text-align: center;
+}
+.copper h1{
+     font-size: 100px;
+     color: lavenderblush;
+     font-weight: 600;
+     transition: 0 5s;
+}
+.copper h1:hover{
+        -webkit-text-stroke: 2px beige;
+        color: transparent; 
+}
