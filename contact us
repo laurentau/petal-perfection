@@ -6,15 +6,31 @@
     <title>contact-page</title>
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <h2>Call us</h2>
-    <h2>Visit us</h2>
-    <h2>Visit us</h2>
 
-    <img src="https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
-</header>
-<main>
-   
+<h1>CONTACT US</h1>
+
+   <img src="https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+   <div class="contact-info">
+    <div class="contact-item">
+        <img src="path-to-your-phone-icon.png" alt="Phone Icon">
+        <h4>CALL US</h4>
+        <a href="tel:0313032407">011 130 3240</a>
+    </div>
+    <div class="contact-item">
+        <img src="path-to-your-whatsapp-icon.png" alt="WhatsApp Icon">
+        <h4>WHATSAPP US</h4>
+        <a href="https://wa.me/27835309183" target="_blank">+27 83 530 9183</a>
+    </div>
+    <div class="contact-item">
+        <img src="path-to-your-location-icon.png" alt="Location Icon">
+        <h4>VISIT US</h4>
+        <a href="https://goo.gl/maps/your-map-link" target="_blank">Florida Road, Greyville, Durban</a>
+    </div>
+    <div class="contact-item">
+        <img src="path-to-your-email-icon.png" alt="Email Icon">
+        <h4>EMAIL US</h4>
+        <a href="mailto:petalperfection@gmail.com" ></a>petalperfection@gmail.com</a>
+
 <form id="contact-form">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
