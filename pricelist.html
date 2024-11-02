@@ -2,54 +2,116 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<>, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Price List</title>
+    <style>
+
+       div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div img { 
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+div img:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+h3 {
+    text-shadow: 100px;
+    text-align: center;
+    color: #da4496;
+} 
+.container {
+            width: 90%;
+            margin: 50px auto;
+        }
+        .heading {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 50px;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+             flex-flow: wrap;
+
+        }
+        .card{
+            width: 80%;
+            background-color: palevioletred;
+            border: 1px solid #ccc;
+            margin-bottom: 50px;
+            transition: 0.3s;
+        }
+        .card-header {
+            text-align: center;
+            padding: 50px 10px;
+            background: linear-gradient(to right, #ff416c, #eca7cf);
+            color: #fff;
+        }
+        .card-body{
+            padding: 30px 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .card-body .btn{
+            display: list-item;
+            color:#fff;
+            text-align: center;
+            background: linear-gradient(to right, #ff416c, #ec1894);
+            margin-top: 30px;
+            text-decoration: none;
+            padding: 10px 5px;
+        }
+        .card:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+        }
+    
+        
+    </style>
 </head>
 <body>
-
+    <h3>OUR OFFERS</h3>
+    <div>
+        <img src="/images/pic1 - Copy (2).jpg" alt="Flower">
+        <img src="/images/moneypic.jpg" alt="Rose">
+        <img src="/images/pic2.jpg" alt="Liliies">
+        <img src="/images/pic3.jpg" alt="Lavender">
+        <img src="/images/pic4.jpg" alt="Orchards">
+        <img src="/images/pic5.jpg" alt="Tulips">
+    </div>
     <div class="container">
-
-        <h1 class="heading">Our Prices</h1>
-
-        <div class="box-container">
-
-        <div class="box">
-            <img src="pic1 - Copy (2).jpg" alt="">
-            <h3>R450</h3>
-            <p>Say it with beauty</p>
-            <a href="" class="button">ORDER</a>
-            </div>
-
-        <div class="box">
-            <img src="pic2.jpg" alt="">
-            <h3>R350</h3>
-            <p>Say it with elegance</p>
-            <a href="" class="button">ORDER</a>
-</div>
-            <div class="box">
-                <img src="pic3.jpg" alt="">
-                <h3>R250</h3>
-                <p>Say it with style</p>
-                <a href="" class="button">ORDER</a>
-
-                <div class="box">
-                    <img src="pic4.jpg" alt="">
-                     <h3>R200</h3>
-                    <p>Say it with sophistication</p>
-                    <a href="" class="button">ORDER</a>
-                </div>
-        <div class="box">
-            <img src="pic5.jpg" alt="">
-             <h3>R450</h3>
-            <p>Say it with love</p>
-            <a href="" class="button">ORDER</a>
+        <div class="Heading">
         </div>
-            <div class="box">
-                <img src="delivery.jpg" alt="">
-                 <h3>R100</h3>
-                <p>We delivery anywhere</p>
-                <a href="" class="button">ORDER</a>
-            </div>
+        <div class="row">
+    
+            <div class="card">
+                <div class="card-header">
+                    <h2>Price List</h2>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>Roses...R1000</li>
+                        <li>Lillies...R485</li>
+                        <li>Tulips...R500</li>
+                        <li>Daisies...R345</li>
+                        <li>Orchids...R845</li>
+                        <li>Lavender...R250</li>
+                        <li>Delivery...R450</li>
+                    </ul>
+                    <a href="#" class="btn">Enquire</a>
+
 </body>
 </html>
